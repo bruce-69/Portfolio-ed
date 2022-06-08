@@ -24,16 +24,14 @@ img {
 body > p {
   font-family: "Source Sans Pro", sans-serif;
   color: aliceblue;
- 
 }
-div > p{
+div > p {
   color: aliceblue;
 
   align-items: center;
- 
-max-width: 40vw;
 
-margin-left: 30vw;
+  max-width: 40vw;
 
-  
+  margin-left: 30vw;
 }
+
