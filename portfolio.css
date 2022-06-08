@@ -24,5 +24,10 @@ img {
 body > p {
   font-family: "Source Sans Pro", sans-serif;
   color: aliceblue;
+ 
+}
+section > p{
+  color: aliceblue;
+align-self: center;
 
 }
