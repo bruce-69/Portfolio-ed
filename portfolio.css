@@ -151,34 +151,24 @@ body {
   height: 300px;
   width: 300px;
   margin-top: 5%;
-  
 }
 
-.contatos{
+.contatos {
   display: flex;
   flex-direction: column;
-justify-content: center;
-align-items: center;
-
-
-
+  justify-content: center;
+  align-items: center;
 }
-
 
 .contatos_titulo {
   font-family: "Source Sans Pro", sans-serif;
- color: antiquewhite;
+  color: antiquewhite;
 }
 
-
-
-.skills{
-
-color: aliceblue;
+.skills {
+  color: aliceblue;
 }
 
-
-
-.rodape{
+.rodape {
   color: aliceblue;
 }
