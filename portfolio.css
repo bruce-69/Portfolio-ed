@@ -1,106 +1,15 @@
-/*@import url("https://fonts.googleapis.com/css2? family= Roboto:wght@100 & family= Source+Sans+Pro:wght@200 & display=swap");
-
-body {
-  background-color: rgb(20, 19, 19);
-}
-
-header {
-  text-align: center;
-}
-
-header > h1 {
-  font-family: "Source Sans Pro", sans-serif;
-  color: aliceblue;
-}
-
-img {
-  border-radius: 50%;
-  height: 200px;
-  object-fit: cover;
-  width: 200px;
-  margin-top: 10%;
-}
-
-body > p {
-  font-family: "Source Sans Pro", sans-serif;
-  color: aliceblue;
-}
-section > p {
-  color: aliceblue;
-
-  align-items: center;
-
-  max-width: 40vw;
-
-  margin-left: 30vw;
-}
-
 
 * {
   margin: 0;
   padding: 0;
-}
-
-body {
-  width: 100vw;
-  min-height: 100vh;
-}
-
-body  p {
-  font-family: "Source Sans Pro", sans-serif;
-  color: aliceblue;}
-
-   h1 {
-    font-family: "Source Sans Pro", sans-serif;
-    color: aliceblue;
-  }
-  
-  h2{
-    font-family: "Source Sans Pro", sans-serif;
-    color: aliceblue;
-  }
-
-  h3{
-    font-family: "Source Sans Pro", sans-serif;
-    color: aliceblue;
-  }
-
-  footer p  {
-    font-family: "Source Sans Pro", sans-serif;
-    color: aliceblue;
-  }
-
-  .cabeça{
-    font-family: "Source Sans Pro", sans-serif;
-    display: flex ;
-    justify-content: center;
-    color: aliceblue;
-  }
-
-  img {
-    border-radius: 50%;
-    height: 200px;
-    object-fit: cover;
-    width: 200px;
-    margin-top: 10%;
-  }
-
-  body{
-    background-color: rgb(37, 39, 41);
-  }
-
-
-*/
-
-* {
-  margin: 0;
-  padding: 0;
+  text-decoration: none;
 }
 
 body {
   width: 100vw;
   min-height: 100vh;
   background-color: rgb(29, 28, 28);
+
 }
 
 .cabeça {
@@ -158,6 +67,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 10%;
 }
 
 .contatos_titulo {
@@ -167,8 +77,28 @@ body {
 
 .skills {
   color: aliceblue;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+font-size: 25px;
+
 }
 
 .rodape {
+
   color: aliceblue;
+  font-family: "Source Sans Pro", sans-serif;
+  
+
 }
+
+.icon_imagens{
+  display: flex;
+  gap: 100px;
+}
+
+.contatos_img{
+  height: 100px;
+
+}
+
