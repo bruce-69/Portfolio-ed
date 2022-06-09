@@ -34,6 +34,62 @@ section > p {
 
   margin-left: 30vw;
 }
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+body  p {
+  font-family: "Source Sans Pro", sans-serif;
+  color: aliceblue;}
+
+   h1 {
+    font-family: "Source Sans Pro", sans-serif;
+    color: aliceblue;
+  }
+  
+  h2{
+    font-family: "Source Sans Pro", sans-serif;
+    color: aliceblue;
+  }
+
+  h3{
+    font-family: "Source Sans Pro", sans-serif;
+    color: aliceblue;
+  }
+
+  footer p  {
+    font-family: "Source Sans Pro", sans-serif;
+    color: aliceblue;
+  }
+
+  .cabeça{
+    font-family: "Source Sans Pro", sans-serif;
+    display: flex ;
+    justify-content: center;
+    color: aliceblue;
+  }
+
+  img {
+    border-radius: 50%;
+    height: 200px;
+    object-fit: cover;
+    width: 200px;
+    margin-top: 10%;
+  }
+
+  body{
+    background-color: rgb(37, 39, 41);
+  }
+
+
 */
 
 * {
@@ -44,4 +100,72 @@ section > p {
 body {
   width: 100vw;
   min-height: 100vh;
+}
+
+.cabeça {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+  align-items: center;
+}
+.cabeça_menu {
+  display: flex;
+  font-family: "Source Sans Pro", sans-serif;
+  gap: 1rem;
+  font-size: 16px;
+}
+
+.cabeça_item {
+  color: rgb(255, 255, 255);
+}
+
+.sobre_mim {
+  font-family: "Source Sans Pro", sans-serif;
+  color: antiquewhite;
+}
+
+.conteudo {
+  border-top: 0.4px solid black;
+}
+
+.sobre_mim {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  gap: 60px;
+}
+
+.sobre_mim_text {
+  font-family: "Source Sans Pro", sans-serif;
+  color: rgb(255, 255, 255);
+  width: 500px;
+}
+
+.sobre_mim_foto {
+  align-items: center;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  margin-top: 5%;
+  
+}
+
+.contatos{
+  display: flex;
+
+justify-content: center;
+
+flex-direction: column;
+
+
+
+}
+
+
+.contatos_titulo {
+  font-family: "Source Sans Pro", sans-serif;
+ 
 }
