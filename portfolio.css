@@ -8,6 +8,13 @@ body {
   width: 100vw;
   min-height: 100vh;
   background-color: rgb(29, 28, 28);
+  margin: 0;
+  
+}
+ body 
+{ 
+ 
+ overflow-x: hidden;
 }
 
 .cabeça {
@@ -16,6 +23,8 @@ body {
   justify-content: space-around;
   padding: 20px;
   align-items: center;
+  
+  display: block;
 }
 .cabeça_menu {
   display: flex;
@@ -35,6 +44,7 @@ body {
 
 .conteudo {
   border-top: 0.4px solid black;
+  
 }
 
 .sobre_mim {
@@ -85,8 +95,6 @@ body {
   gap: 100px;
   display: flex;
   padding-left: 32%;
-}
-.sinbolos_skills {
   height: 100px;
 }
 
