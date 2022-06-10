@@ -81,7 +81,21 @@ body {
   justify-content: center;
   margin-top: 100px;
 font-size: 25px;
+align-items: center;
+}
 
+.sinboloss_skills{
+  display: flex;
+  gap: 100px;
+}
+.sinbolos_skills{
+  height: 100px;
+}
+
+.skills_titulo{
+  font-family: "Source Sans Pro", sans-serif;
+  color: antiquewhite;
+  display: flex;
 }
 
 .rodape {
