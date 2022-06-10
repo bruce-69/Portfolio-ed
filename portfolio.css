@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +8,6 @@ body {
   width: 100vw;
   min-height: 100vh;
   background-color: rgb(29, 28, 28);
-
 }
 
 .cabeça {
@@ -77,42 +75,37 @@ body {
 
 .skills {
   color: aliceblue;
-  display: flex;
-  justify-content: center;
   margin-top: 100px;
-font-size: 25px;
-align-items: center;
+  font-size: 25px;
+  align-items: center;
 }
 
-.sinboloss_skills{
+.sinbolos_conteiner {
   display: flex;
   gap: 100px;
+  display: flex;
+  padding-left: 32%;
 }
-.sinbolos_skills{
+.sinbolos_skills {
   height: 100px;
 }
 
-.skills_titulo{
+.skills_titulo {
   font-family: "Source Sans Pro", sans-serif;
   color: antiquewhite;
-  display: flex;
+  text-align: center;
 }
 
 .rodape {
-
   color: aliceblue;
   font-family: "Source Sans Pro", sans-serif;
-  
-
 }
 
-.icon_imagens{
+.icon_imagens {
   display: flex;
   gap: 100px;
 }
 
-.contatos_img{
+.contatos_img {
   height: 100px;
-
 }
-
