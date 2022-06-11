@@ -72,6 +72,8 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 10%;
+  
+
 }
 
 .contatos_titulo {
@@ -81,7 +83,7 @@ body {
 }
 
 .skills {
-  margin-top: 100px;
+  margin-top: 170px;
   font-size: 25px;
   align-items: center;
 }
