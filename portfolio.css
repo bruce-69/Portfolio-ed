@@ -10,6 +10,7 @@ body {
   background-color: rgb(29, 28, 28);
   margin: 0;
 }
+
 body {
   overflow-x: hidden;
 }
@@ -20,7 +21,6 @@ body {
   justify-content: space-around;
   padding: 20px;
   align-items: center;
-
   display: block;
 }
 .cabeça_menu {
@@ -46,25 +46,33 @@ body {
 .sobre_mim {
   display: flex;
   flex-direction: column;
-
   align-items: center;
-
   gap: 60px;
 }
 
 .sobre_mim_text {
   font-family: "Source Sans Pro", sans-serif;
   color: rgb(255, 255, 255);
-  width: 500px;
+  max-width: 50%;
+  /* width: 500px; */
 }
 
+
 .sobre_mim_foto {
-  align-items: center;
   border-radius: 50%;
+  margin-top: 5%;
+  align-items: center;
   height: 300px;
   width: 300px;
-  margin-top: 5%;
 }
+
+@media only screen and (max-width: 420px) {
+  .sobre_mim_foto {
+    height: 220px;
+    width: 220px;
+  }
+}
+
 
 .contatos {
   display: flex;
@@ -92,8 +100,32 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 5%;
-  height: 150px;
+  align-items: center;
+  /* height: 150px; */
 }
+.sinbolos_skills {
+  height: 150px;
+  /* width: 50px; */
+}
+
+@media only screen and (max-width: 420px) {
+  .sinbolos_conteiner {
+    flex-direction: column;
+  }
+  .sinbolos_skills {
+    height: 100px;
+    width: 100px;
+  }
+  .skills {
+    margin-top: 50px;
+  }
+}
+
+/* .sinbolos_skills {
+  height: 50px;
+} */
+
+
 
 .skills_titulo {
   font-family: "Source Sans Pro", sans-serif;
@@ -108,9 +140,23 @@ body {
 
 .icon_imagens {
   display: flex;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  /* flex-wrap: wrap; */
   gap: 100px;
 }
 
+@media only screen and (max-width: 420px) {
+  .icon_imagens {
+    flex-direction: column;
+    /* height: 50px;
+    width: auto; */
+  }
+}
+
+
+
 .contatos_img {
   height: 100px;
+
 }
